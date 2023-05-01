@@ -1,0 +1,248 @@
+body{
+    background-color: #191919;
+}
+
+header{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#title{
+    color: white;
+    flex-direction: column;
+    line-height: 10px;
+    margin-bottom: 10px;
+}
+
+#title h2{
+    color: blueviolet;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 10px;
+}
+
+img{
+    width: 200px;
+    height: 180px;
+    background-size: auto;
+    background-position: 1000px;
+}
+
+
+li{
+    color: white;
+    display: inline-block;
+    margin: 20px;
+    font-size: 18px;
+}
+
+a{
+    color: white;
+    font-weight: 700;
+}
+
+li:hover{
+    color: darkmagenta;
+    transition: 0.8s;
+}
+
+/* Código CSS para o designer do cabeçalho (header)*/
+
+
+/*Código CSS para a introdução do site com botões*/
+
+h3{
+    color: white;
+    font-size: 56px;
+    line-height: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+span{
+    color: darkmagenta;
+}
+
+h4{
+    color: darkmagenta;
+    flex-direction: column;
+    line-height: 10px;
+    font-size: 30px;
+    padding: 0.7;
+    font-weight: bold;
+
+}
+
+.caixa_introdução p{
+    max-width: 500px;
+    font-size: 20px;
+    color: white;
+}
+
+.links{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+    margin: 15px;
+}
+
+.links:hover{
+    text-decoration: none;
+    color: darkmagenta;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+form [type="submit"]{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    height: 50px;
+    width: 100%;
+    background-color: darkmagenta;
+    
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+    color: black;
+    transition: 0.7s;
+}
+
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+}
+
+.container{
+    float: right;
+    width: 75%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container img{
+    width: 500px;
+    height: 250px;
+    border-radius: 15%;
+
+}
+
+/*Término do código CSS para a introdução do site com botões*/
+
+/*Conteúdo JavaScript*/
+
+h5{
+    color: yellow;
+    font-size: 56px;
+    line-height: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 20px;
+}
+
+.conteudo p{
+    max-width: 500px;
+    font-size: 20px;
+    color: white;
+}
+
+/*Conteúdo JavaScript*/
+
+/*Conteúdo CSS*/
+
+h6{
+    color: rgb(0, 137, 216);
+    font-size: 56px;
+    line-height: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 20px;
+}
+
+.conteudo_css p{
+    max-width: 500px;
+    font-size: 20px;
+    color: white;
+}
+
+/*Conteúdo CSS*/
+
+/*Conteúdo HTML*/
+.conteudo_html h6{
+    color: rgb(255, 115, 0);
+    font-size: 56px;
+    line-height: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 25px;
+}
+
+.conteudo_html p{
+    max-width: 500px;
+    font-size: 20px;
+    color: white;
+}
+/*Conteúdo HTML*/
+
+footer{
+    background-color: #292929;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h6{
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+}
+
+footer p{
+    color: darkmagenta;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.social{
+    display: flex;
+    gap: 10px;
+}
+
+.social img{
+    height: 50px;
+    border-radius: 25%;
+}
+
+.social a{
+    background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.social a:hover{
+    transform: scale(1.8);
+    transition: 0.8s;
+}
